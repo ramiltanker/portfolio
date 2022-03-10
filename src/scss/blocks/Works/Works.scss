@@ -205,8 +205,21 @@
 
     &__card {
       width: 100%;
-      max-width: 350px;
-      height: 250px;
+      max-width: 300px;
+      height: 180px;
+    }
+
+    &__card-title {
+      font-size: 30px;
+    }
+
+    &__card-text {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    &__card-button {
+      font-size: 14px;
     }
   }
 
@@ -214,10 +227,6 @@
     &__card {
       max-width: 280px;
       height: 200px;
-    }
-
-    &__card-title {
-      font-size: 30px;
     }
 
     padding-bottom: 80px;

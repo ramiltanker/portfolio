@@ -16,16 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    &:first-child {
-      margin-right: 50px;
-    }
-  }
-
-  &__name {
-    font-size: 18px;
-    color: #ddd;
-    margin-bottom: 10px;
   }
 
   &__list {

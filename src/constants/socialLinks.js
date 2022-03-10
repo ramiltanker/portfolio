@@ -28,27 +28,6 @@ const social = [
       },
     ],
   },
-  {
-    id: 1,
-    name: "Damil",
-    socialLinks: [
-      {
-        id: 0,
-        socialLink: "",
-        icon: instagramIcon,
-      },
-      {
-        id: 1,
-        socialLink: "",
-        icon: telegramIcon,
-      },
-      {
-        id: 2,
-        socialLink: "",
-        icon: whatsAppIcon,
-      },
-    ],
-  },
 ];
 
 export default social;

@@ -10,7 +10,7 @@ interface ISkills {}
 const Skills: React.FC<ISkills> = ({}) => {
   return (
     <section className="skills" id="skills">
-      <h2 className="skills__title">Our Skills</h2>
+      <h2 className="skills__title">My Skills</h2>
       <SkillsCardContainer />
       <Decor fill="#2a2a2a"/>
     </section>

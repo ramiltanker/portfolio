@@ -26,24 +26,4 @@ export const experience = [
       },
     ],
   },
-  {
-    id: 1,
-    name: "Damil",
-    lastExp: [
-      {
-        id: 1,
-        title: "Freelance platform fl.ru",
-        time: "6 month",
-        description:
-          "I have been worked on a freelance platform. Gained experience in commercial development. I got the skills to communicate with customers, learned to read the terms of reference.",
-      },
-      {
-        id: 0,
-        title: "IT-Incubator",
-        time: "2020-2021",
-        description:
-          "I have been studied at IT-Incubator. I have studied JavaScript more deeply. I got acquainted with the React library and started writing code in TypeScript.",
-      },
-    ],
-  },
 ];

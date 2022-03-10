@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Skill } from '../../../Skill/Skill';
 import { List } from '../../../About/Content/RightSide/Inner/List/List';
-import aboutInfo from '../../../../constants/about-us-info.json';
+import aboutInfo from '../../../../constants/about-us-info';
 
 interface IAboutBody {
   active: boolean;

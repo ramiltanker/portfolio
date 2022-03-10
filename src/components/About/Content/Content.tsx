@@ -7,7 +7,7 @@ import { LeftSide } from "./LeftSide/LeftSide";
 import { RightSide } from "./RightSide/RightSide";
 
 // Info about us
-import aboutInfo from "../../../constants/about-us-info.json";
+import aboutInfo from "../../../constants/about-us-info";
 // Info about us
 
 // import Swiper core and required modules
@@ -22,31 +22,22 @@ type ContentPropsType = {
 
 export const Content: React.FC<ContentPropsType> = ({ abs }) => {
   return (
-    <Swiper
-      pagination={{
-        dynamicBullets: true,
-      }}
-      navigation
-      grabCursor
-      className="mySwiper"
-    >
-      {aboutInfo.map(({ id, name, age, phone, email, text }) => {
+    <>
+      {aboutInfo.map(({ id, name, age, phone, email, text, photo }) => {
         return (
-          <SwiperSlide key={id}>
-            <div className="about__inner">
-              <LeftSide />
-              <RightSide
-                name={name}
-                age={age}
-                phone={phone}
-                email={email}
-                text={text}
-                abs={() => abs({name, age, phone, email})}
-              />
-            </div>
-          </SwiperSlide>
+          <div className="about__inner">
+            <LeftSide photo={photo} />
+            <RightSide
+              name={name}
+              age={age}
+              phone={phone}
+              email={email}
+              text={text}
+              abs={() => abs({ name, age, phone, email })}
+            />
+          </div>
         );
       })}
-    </Swiper>
+    </>
   );
 };

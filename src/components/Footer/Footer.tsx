@@ -10,14 +10,13 @@ import social from "../../constants/socialLinks";
 const Footer = () => {
   return (
     <footer className="footer" id="footer">
-      <Logo logoText="RD" />
+      <Logo logoText="R" />
       <div className="footer__wrap">
-        {social.map(({name, socialLinks, id}) => {
+        {social.map(({ name, socialLinks, id }) => {
           return (
             <div className="footer__box" key={id}>
-              <p className="footer__name">{name}:</p>
               <ul className="footer__list">
-                {socialLinks.map(({socialLink, icon, id}) => {
+                {socialLinks.map(({ socialLink, icon, id }) => {
                   return (
                     <SocialLinkCard
                       socialLink={socialLink}
@@ -31,7 +30,7 @@ const Footer = () => {
           );
         })}
       </div>
-      <p className="footer__text">Follow and Contact us :)</p>
+      <p className="footer__text">Follow and Contact me :)</p>
     </footer>
   );
 };

@@ -1,10 +1,13 @@
-import React from 'react';
-import myPhoto from '../../../../assets/images/AboutMe.png';
+import React from "react";
 
-export const LeftSide: React.FC = () => {
-	return (
-		<div className="about__left">
-			<img className="about__image" src={ myPhoto } alt="About me" />
-		</div>
-	);
+interface ILeftSide {
+  photo: string;
+}
+
+export const LeftSide: React.FC<ILeftSide> = ({ photo }) => {
+  return (
+    <div className="about__left">
+      <img className="about__image" src={photo} alt="About me" />
+    </div>
+  );
 };

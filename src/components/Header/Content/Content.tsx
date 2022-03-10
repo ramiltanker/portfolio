@@ -16,7 +16,7 @@ export const Content: React.FC = () => {
 
         <SocialLinks />
 
-        <CopyText text="Nice persons and great developers" />
+        <CopyText text="Nice person and great developer" />
       </div>
     </div>
   );

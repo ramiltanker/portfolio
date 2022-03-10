@@ -13,7 +13,7 @@ export const Navigation: React.FC<INavigation> = ({ handleOpenBurgerMenu }) => {
   return (
     <nav className="nav">
       <div className="nav__inner">
-        <Logo logoText="RD" />
+        <Logo logoText="R" />
         <BurgerMenu handleOpenBurgerMenu={handleOpenBurgerMenu} />
       </div>
     </nav>

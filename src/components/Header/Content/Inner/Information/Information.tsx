@@ -9,7 +9,7 @@ export const Information: React.FC = () => {
     <div className="header__box">
       <Subtitle text="Hello and Welcome" />
 
-      <Title text="We are" />
+      <Title text="I am" />
 
       <Button text="Contact me" />
 
