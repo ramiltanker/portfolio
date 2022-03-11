@@ -79,6 +79,7 @@
 
   &__close-button {
     position: absolute;
+    z-index: 2;
     top: 10px;
     left: 0;
     width: 40px;
@@ -131,6 +132,12 @@
 
     &__text {
       font-size: 30px;
+    }
+
+    &__close-button {
+      width: 60px;
+      height: 60px;
+      top: 5px;
     }
   }
 

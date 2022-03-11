@@ -14,6 +14,10 @@ import timerMainImage from "../assets/images/timerMainImage.png";
 import timerFirstImage from "../assets/images/timerFirstImage.png";
 import timerSecondImage from "../assets/images/timerSecondImage.png";
 
+import handsMainImage from "../assets/images/handsMainImage.png";
+import handsFirstImage from "../assets/images/handsFirstImage.png";
+import handsSecondImage from "../assets/images/handsSecondImage.png";
+
 const worksData = [
   {
     title: "Stellar Burgers",
@@ -35,7 +39,7 @@ const worksData = [
     title: "QR-MENU",
     shortDescription: "QR-menu for Tino Pizza",
     clientName: "Tino Pizza",
-    projectValue: "-",
+    projectValue: "10.000 RUB",
     date: "10 Oct 2021",
     descriptionFirst:
       "The application was created to remove the traditional menu and replace it with a more modern counterpart. The application works by scanning a QR code with a phone camera.",
@@ -50,8 +54,8 @@ const worksData = [
   {
     title: "My Korea",
     shortDescription: "My Korea for Education",
-    clientName: "-",
-    projectValue: "-",
+    clientName: "Private customer",
+    projectValue: "20.000 RUB",
     date: "15 June 2021",
     descriptionFirst:
       "A project created to help students study in Korea. The site contains information about universities, grants and other information.",
@@ -76,6 +80,22 @@ const worksData = [
     exampleImageSecond: timerSecondImage,
     link: "https://ramiltanker.github.io/timer/",
     id: 4,
+  },
+  {
+    title: "HANDS",
+    shortDescription: "Treatment Center",
+    clientName: "Private customer",
+    projectValue: "40.000 RUB",
+    date: "20 Feb 2022",
+    descriptionFirst:
+      "Website designed for a center that provides treatment services",
+    descriptionSecond:
+      "The site is written without a framework, in pure js using html markup and scss preprocessor",
+    mainImage: handsMainImage,
+    exampleImageFirst: handsFirstImage,
+    exampleImageSecond: handsSecondImage,
+    link: "https://xleevenx.github.io/123/",
+    id: 5,
   },
 ];
 
