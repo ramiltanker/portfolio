@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c1a22418.chunk.css",
-    "main.js": "/portfolio/static/js/main.35629116.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.35629116.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2b6b8522.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b6b8522.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.03a1a53a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.03a1a53a.js.map",
     "static/css/2.3fa15d0e.chunk.css": "/portfolio/static/css/2.3fa15d0e.chunk.css",
@@ -21,6 +21,9 @@
     "static/media/arrow-down.d10345e3.svg": "/portfolio/static/media/arrow-down.d10345e3.svg",
     "static/media/contacts.7dc3ebca.png": "/portfolio/static/media/contacts.7dc3ebca.png",
     "static/media/experience.a58b6a2e.png": "/portfolio/static/media/experience.a58b6a2e.png",
+    "static/media/handsFirstImage.19636d52.png": "/portfolio/static/media/handsFirstImage.19636d52.png",
+    "static/media/handsMainImage.8f52a159.png": "/portfolio/static/media/handsMainImage.8f52a159.png",
+    "static/media/handsSecondImage.3ef4c81b.png": "/portfolio/static/media/handsSecondImage.3ef4c81b.png",
     "static/media/header.1b66e5ed.png": "/portfolio/static/media/header.1b66e5ed.png",
     "static/media/my-korea.ea751386.jpg": "/portfolio/static/media/my-korea.ea751386.jpg",
     "static/media/myKoreaFirstImage.02315abb.png": "/portfolio/static/media/myKoreaFirstImage.02315abb.png",
@@ -40,6 +43,6 @@
     "static/css/2.3fa15d0e.chunk.css",
     "static/js/2.78094ca8.chunk.js",
     "static/css/main.c1a22418.chunk.css",
-    "static/js/main.35629116.chunk.js"
+    "static/js/main.2b6b8522.chunk.js"
   ]
 }
