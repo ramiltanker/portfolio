@@ -60,4 +60,9 @@
   &__li:last-of-type {
     margin-right: 0;
   }
+
+  &__message {
+    text-align: center;
+    font-size: 0.7em;
+  }
 }

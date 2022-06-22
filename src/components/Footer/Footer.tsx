@@ -31,6 +31,10 @@ const Footer = () => {
         })}
       </div>
       <p className="footer__text">Follow and Contact me :)</p>
+      <p className="footer__text footer__message">
+        Meta признана экстремисткой корпорацией на <br></br>территории
+        России/Meta is recognized as an <br></br>extremist corporation in Russia
+      </p>
     </footer>
   );
 };
