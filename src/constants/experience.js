@@ -24,6 +24,13 @@ export const experience = [
         description:
           "I have been worked as an intern at MindSet as a frontend developer intern. Participated in the development of the Start-Up project. Performed Team Lead tasks.",
       },
+      {
+        id: 3,
+        title: "Moon Robots",
+        time: "3 month",
+        description:
+          "I gained experience in developing an application in Web 3.0. I learned new knowledge about blockchain and nft. Together with the team, we managed to create a high-quality product that was played by thousands of users around the world.",
+      },
     ],
   },
 ];

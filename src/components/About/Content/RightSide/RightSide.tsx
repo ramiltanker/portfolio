@@ -19,18 +19,15 @@ export const RightSide: React.FC<RightSidePropsType> = ({
   phone,
   email,
   text,
-  abs
+  abs,
 }) => {
   return (
     <div className="about__right">
       <Title text="About Me" />
-
       <div className="about__box">
         <Text content={text} />
       </div>
-
       <List name={name} age={age} phone={phone} email={email} />
-
       <Button text="More About" abs={abs} />
     </div>
   );

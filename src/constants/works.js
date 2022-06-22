@@ -18,7 +18,27 @@ import handsMainImage from "../assets/images/handsMainImage.png";
 import handsFirstImage from "../assets/images/handsFirstImage.png";
 import handsSecondImage from "../assets/images/handsSecondImage.png";
 
+import moonrobotsMainImage from "../assets/images/moonrobotsMainImage.png";
+import moonrobotsFirstImage from "../assets/images/moonrobotsFirstImage.png";
+import moonrobotsSecondImage from "../assets/images/moonrobotsSecondImage.png";
+
 const worksData = [
+  {
+    title: "Moon Robots",
+    shortDescription: "Web3.0 NFT Game",
+    clientName: "-",
+    projectValue: "-",
+    date: "28 Oct 2021",
+    descriptionFirst:
+      "Moon Robots is an upcoming cross-chain NFT DeFi-powered Strategy/RPG P2E game that launches on Harmony blockchain in Q2 2022.",
+    descriptionSecond:
+      "The network chosen for the launch is fast, secure and efficient, which will enable smooth and trustless experience for the players.",
+    mainImage: moonrobotsMainImage,
+    exampleImageFirst: moonrobotsFirstImage,
+    exampleImageSecond: moonrobotsSecondImage,
+    link: "https://moonrobots.one/",
+    id: 6,
+  },
   {
     title: "Stellar Burgers",
     shortDescription: "Yandex Practicum Project",

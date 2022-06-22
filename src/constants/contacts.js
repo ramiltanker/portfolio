@@ -9,7 +9,7 @@ const PhoneIcon = <FiPhoneCall className="contacts__image" />;
 const contacts = [
   {
     id: 0,
-    textName: "Kazakhstan, Taldykorgan",
+    textName: "Russia, Moscow",
     title: "Address",
     icon: AddressIcon,
   },
@@ -21,7 +21,7 @@ const contacts = [
   },
   {
     id: 2,
-    textName: "+7 (700) 487-01-80",
+    textName: "Contact me in social media to get my phone number",
     title: "Phone",
     icon: PhoneIcon,
   },
