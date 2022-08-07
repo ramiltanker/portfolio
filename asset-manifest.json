@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4016f08e.chunk.css",
-    "main.js": "/portfolio/static/js/main.b8be69bd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b8be69bd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ea7d90ac.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ea7d90ac.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.03a1a53a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.03a1a53a.js.map",
     "static/css/2.3fa15d0e.chunk.css": "/portfolio/static/css/2.3fa15d0e.chunk.css",
-    "static/js/2.0c016747.chunk.js": "/portfolio/static/js/2.0c016747.chunk.js",
-    "static/js/2.0c016747.chunk.js.map": "/portfolio/static/js/2.0c016747.chunk.js.map",
+    "static/js/2.fc573581.chunk.js": "/portfolio/static/js/2.fc573581.chunk.js",
+    "static/js/2.fc573581.chunk.js.map": "/portfolio/static/js/2.fc573581.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.3fa15d0e.chunk.css.map": "/portfolio/static/css/2.3fa15d0e.chunk.css.map",
     "static/css/main.4016f08e.chunk.css.map": "/portfolio/static/css/main.4016f08e.chunk.css.map",
-    "static/js/2.0c016747.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0c016747.chunk.js.LICENSE.txt",
+    "static/js/2.fc573581.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fc573581.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/portfolio/static/media/bg-font.0ccaa5fb.jpg",
     "static/media/QR-code-mainImage.571624fd.jpg": "/portfolio/static/media/QR-code-mainImage.571624fd.jpg",
     "static/media/Stellar Burgers.aff84fed.png": "/portfolio/static/media/Stellar Burgers.aff84fed.png",
     "static/media/StellarBurgersExample1.8f4c088b.png": "/portfolio/static/media/StellarBurgersExample1.8f4c088b.png",
     "static/media/StellarBurgersExample2.26192ef7.png": "/portfolio/static/media/StellarBurgersExample2.26192ef7.png",
-    "static/media/about.9410eb7d.png": "/portfolio/static/media/about.9410eb7d.png",
+    "static/media/about.af8c10ae.png": "/portfolio/static/media/about.af8c10ae.png",
     "static/media/arrow-down.dd1b2c95.svg": "/portfolio/static/media/arrow-down.dd1b2c95.svg",
-    "static/media/contacts.7dc3ebca.png": "/portfolio/static/media/contacts.7dc3ebca.png",
+    "static/media/contacts.8bc06c78.png": "/portfolio/static/media/contacts.8bc06c78.png",
     "static/media/experience.a58b6a2e.png": "/portfolio/static/media/experience.a58b6a2e.png",
     "static/media/handsFirstImage.19636d52.png": "/portfolio/static/media/handsFirstImage.19636d52.png",
     "static/media/handsMainImage.8f52a159.png": "/portfolio/static/media/handsMainImage.8f52a159.png",
     "static/media/handsSecondImage.3ef4c81b.png": "/portfolio/static/media/handsSecondImage.3ef4c81b.png",
-    "static/media/header.1b66e5ed.png": "/portfolio/static/media/header.1b66e5ed.png",
+    "static/media/header.0565869c.png": "/portfolio/static/media/header.0565869c.png",
+    "static/media/image-coming-soon.90bd9cdd.jpg": "/portfolio/static/media/image-coming-soon.90bd9cdd.jpg",
+    "static/media/moon-robots-game.60c27543.png": "/portfolio/static/media/moon-robots-game.60c27543.png",
     "static/media/moonrobotsFirstImage.eaa46387.png": "/portfolio/static/media/moonrobotsFirstImage.eaa46387.png",
     "static/media/moonrobotsMainImage.6cc6fe10.png": "/portfolio/static/media/moonrobotsMainImage.6cc6fe10.png",
     "static/media/moonrobotsSecondImage.f997f046.png": "/portfolio/static/media/moonrobotsSecondImage.f997f046.png",
@@ -39,13 +41,13 @@
     "static/media/timerFirstImage.bb952b6c.png": "/portfolio/static/media/timerFirstImage.bb952b6c.png",
     "static/media/timerMainImage.58aa4d5c.png": "/portfolio/static/media/timerMainImage.58aa4d5c.png",
     "static/media/timerSecondImage.c7d7ab87.png": "/portfolio/static/media/timerSecondImage.c7d7ab87.png",
-    "static/media/works.afc4f783.png": "/portfolio/static/media/works.afc4f783.png"
+    "static/media/works.07de53e7.png": "/portfolio/static/media/works.07de53e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.03a1a53a.js",
     "static/css/2.3fa15d0e.chunk.css",
-    "static/js/2.0c016747.chunk.js",
+    "static/js/2.fc573581.chunk.js",
     "static/css/main.4016f08e.chunk.css",
-    "static/js/main.b8be69bd.chunk.js"
+    "static/js/main.ea7d90ac.chunk.js"
   ]
 }
