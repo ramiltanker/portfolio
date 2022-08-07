@@ -1,13 +1,19 @@
+import React, { useContext } from "react";
 // Components
 import SocialLinkCard from "../SocialLinkCard/SocialLinkCard";
 import { Logo } from "../Logo/Logo";
 // Components
+
+import texts from "../../constants/texts";
+import { LanguageContext } from "../../providers/LanguageContext";
 
 // Social data
 import social from "../../constants/socialLinks";
 // Socila data
 
 const Footer = () => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <footer className="footer" id="footer">
       <Logo logoText="R" />
@@ -30,10 +36,9 @@ const Footer = () => {
           );
         })}
       </div>
-      <p className="footer__text">Follow and Contact me :)</p>
+      <p className="footer__text">{texts.footer_follow_contact[language]} :)</p>
       <p className="footer__text footer__message">
-        Meta признана экстремисткой корпорацией на <br></br>территории
-        России/Meta is recognized as an <br></br>extremist corporation in Russia
+        {texts.footer_meta[language]}
       </p>
     </footer>
   );

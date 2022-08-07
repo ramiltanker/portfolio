@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 
 // Types
 import { TWorkCardModal } from "../../types/works";
 // Types
+import texts from "../../constants/texts";
+import { LanguageContext } from "../../providers/LanguageContext";
 
 // Functions
-import { openModal } from "../pureFunctions/openModal";
+import { openModal } from "../../utils/openModal";
 // Functions
 
 interface IWorksCard {
@@ -30,6 +32,7 @@ const WorksCard: React.FC<IWorksCard> = ({
   shortDescription,
   mainImage,
 }) => {
+  const { language } = useContext(LanguageContext);
   const [isCardInfoActive, setIsCardInfoActive] = useState<boolean>(false);
 
   const handleHoverOnCard = () => {
@@ -68,7 +71,7 @@ const WorksCard: React.FC<IWorksCard> = ({
         <p className="works__card-title">{title}</p>
         <p className="works__card-text">{shortDescription}</p>
         <button className="works__card-button" onClick={handleOpenModal}>
-          View Work
+          {texts.works_card_button[language]}
         </button>
       </div>
     </div>

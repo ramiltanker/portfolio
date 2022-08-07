@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from "react";
 
 // Functions
-import { closeModal } from "./pureFunctions/closeModal";
+import { closeModal } from "../utils/closeModal";
+import { openModal } from "../utils/openModal";
 // Functions
 
 // Types
 import { TWorkCardModal } from "../types/works";
 // Types
+
+// Context
+import { LanguageProvider } from "../providers/LanguageContext";
+// Context
 
 // Components
 import { Header } from "./Header/Header";
@@ -31,7 +36,6 @@ export const App: React.FC = () => {
   const [isMenuActive, setIsMenuActive] = useState<boolean>(false);
 
   const abs = (data: any) => {
-    console.log(1);
     setAboutModalValue(true);
     setAboutModalData(data);
   };
@@ -58,35 +62,37 @@ export const App: React.FC = () => {
   };
 
   const handleOpenBurgerMenu = () => {
-    setIsMenuActive(true);
+    openModal(setIsMenuActive);
   };
 
   const handleCloseBurgerMenu = () => {
-    setIsMenuActive(false);
+    closeModal(setIsMenuActive);
   };
 
   return (
-    <div className="wrapper">
-      <Header handleOpenBurgerMenu={handleOpenBurgerMenu} />
-      <About abs={abs} />
-      <Works
-        handleOpenWorkModal={setIsWorkModal}
-        handleSetWorkCardInfo={handleSetWorkCardInfo}
-      />
-      <Experience />
-      <Skills />
-      <Contacts />
-      <Footer />
-      <Menu
-        isMenuActive={isMenuActive}
-        handleCloseBurgerMenu={handleCloseBurgerMenu}
-      />
-      <Modal active={aboutModalValue} setActive={setAboutModalValue}>
-        <AboutBody active={aboutModalValue} data={aboutModalData} />
-      </Modal>
-      <Modal active={isWorkModal} setActive={setIsWorkModal}>
-        <WorkModalBody workCardData={workCardData} />
-      </Modal>
-    </div>
+    <LanguageProvider>
+      <div className="wrapper">
+        <Header handleOpenBurgerMenu={handleOpenBurgerMenu} />
+        <About abs={abs} />
+        <Works
+          handleOpenWorkModal={setIsWorkModal}
+          handleSetWorkCardInfo={handleSetWorkCardInfo}
+        />
+        <Experience />
+        <Skills />
+        <Contacts />
+        <Footer />
+        <Menu
+          isMenuActive={isMenuActive}
+          handleCloseBurgerMenu={handleCloseBurgerMenu}
+        />
+        <Modal active={aboutModalValue} setActive={setAboutModalValue}>
+          <AboutBody active={aboutModalValue} data={aboutModalData} />
+        </Modal>
+        <Modal active={isWorkModal} setActive={setIsWorkModal}>
+          <WorkModalBody workCardData={workCardData} />
+        </Modal>
+      </div>
+    </LanguageProvider>
   );
 };

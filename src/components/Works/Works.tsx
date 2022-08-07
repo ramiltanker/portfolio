@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
+import texts from "../../constants/texts";
+import { LanguageContext } from "../../providers/LanguageContext";
 
 // Types
 import { TWorkCardModal } from "../../types/works";
@@ -18,14 +20,16 @@ const Works: React.FC<IWorks> = ({
   handleOpenWorkModal,
   handleSetWorkCardInfo,
 }) => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <section className="works" id="projects">
-      <h2 className="works__title">Latest Project</h2>
+      <h2 className="works__title">{texts.works_title[language]}</h2>
       <WorksCardContainer
         handleOpenWorkModal={handleOpenWorkModal}
         handleSetWorkCardInfo={handleSetWorkCardInfo}
       />
-      <Decor fill="#2a2a2a"/>
+      <Decor fill="#2a2a2a" />
     </section>
   );
 };

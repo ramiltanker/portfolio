@@ -1,4 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useContext } from "react";
+import { LanguageContext } from "../../providers/LanguageContext";
+import texts from "../../constants/texts";
 
 interface ISkillsCard {
   name: string;
@@ -9,6 +11,7 @@ interface ISkillsCard {
 
 const SkillsCard: React.FC<ISkillsCard> = ({ name, info, link, icon }) => {
   const [isDotsRotate, setIsDotsRotate] = React.useState<boolean>(false);
+  const { language } = useContext(LanguageContext);
 
   const handleRotateDots = () => {
     setIsDotsRotate(true);
@@ -42,7 +45,7 @@ const SkillsCard: React.FC<ISkillsCard> = ({ name, info, link, icon }) => {
         <p className="skills__card-text">{info}</p>
       </div>
       <a className="skills__card-button" href={link}>
-        READ MORE
+        {texts.skills_card_button[language]}
       </a>
     </div>
   );

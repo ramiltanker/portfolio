@@ -20,6 +20,26 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  &__buttons {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 6em;
+  }
+
+  &__language-button {
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.5em;
+    outline: none;
+
+    &-active {
+      text-decoration: underline;
+    }
+  }
 }
 
 .logo {

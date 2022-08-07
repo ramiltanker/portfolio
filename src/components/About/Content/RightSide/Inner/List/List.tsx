@@ -1,5 +1,6 @@
-import React from "react";
-import { Item } from "./Inner/Item";
+import React, { useContext } from "react";
+import texts from "../../../../../../constants/texts";
+import { LanguageContext } from "../../../../../../providers/LanguageContext";
 
 interface IAbout {
   [key: string]: string;
@@ -14,21 +15,32 @@ interface IList {
 }
 
 export const List: React.FC<IList> = ({ name, age, phone, email }) => {
-  const data: IAbout[] = [
-    { Name: name, id: "1" },
-    { Age: age, id: "2" },
-    { Phone: phone, id: "3" },
-    { Email: email, id: "4" },
-  ];
+  const { language } = useContext(LanguageContext);
 
   return (
     <ul className="about__list">
-      {data.map((item) => {
-        const key = Object.keys(item)[0];
-        const value = Object.values(item)[0];
-
-        return <Item key={item.id} label={key} value={value} />;
-      })}
+      <li className="about__item">
+        <label className="about__label">
+          {texts.about_list_name[language]}:
+        </label>
+        <span className="about__value">{name}</span>
+      </li>
+      <li className="about__item">
+        <label className="about__label">
+          {texts.about_list_age[language]}:
+        </label>
+        <span className="about__value">{age}</span>
+      </li>
+      <li className="about__item">
+        <label className="about__label">
+          {texts.about_list_phone[language]}:
+        </label>
+        <span className="about__value">{phone}</span>
+      </li>
+      <li className="about__item">
+        <label className="about__label">Email:</label>
+        <span className="about__value">{email}</span>
+      </li>
     </ul>
   );
 };

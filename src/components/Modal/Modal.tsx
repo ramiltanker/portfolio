@@ -1,6 +1,6 @@
 import React, { MouseEvent } from "react";
 import { CloseButton } from "./Inner/CloseButton";
-import { closeModal } from "../pureFunctions/closeModal";
+import { closeModal } from "../../utils/closeModal";
 
 type ModalPropsType = {
   active: boolean;

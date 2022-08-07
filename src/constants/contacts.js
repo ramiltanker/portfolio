@@ -9,20 +9,35 @@ const PhoneIcon = <FiPhoneCall className="contacts__image" />;
 const contacts = [
   {
     id: 0,
-    textName: "Russia, Moscow",
-    title: "Address",
+    textName: {
+      ru: "Россия, Москва",
+      en: "Russia, Moscow",
+    },
+    title: {
+      ru: "Адрес",
+      en: "Address",
+    },
     icon: AddressIcon,
   },
   {
     id: 1,
-    textName: "ramilashrafulinfrontend@gmail.com",
-    title: "Email",
+    textName: {
+      ru: "ramilashrafulinfrontend@gmail.com",
+      en: "ramilashrafulinfrontend@gmail.com",
+    },
+    title: { en: "Email", ru: "Email" },
     icon: EmailIcon,
   },
   {
     id: 2,
-    textName: "Contact me in social media to get my phone number",
-    title: "Phone",
+    textName: {
+      ru: "Свяжитесь со мной в социальных сетях, чтобы получить мой номер телефона",
+      en: "Contact me in social media to get my phone number",
+    },
+    title: {
+      ru: "Телефон",
+      en: "Phone",
+    },
     icon: PhoneIcon,
   },
 ];

@@ -1,5 +1,5 @@
 import React from 'react';
-import { closeModal } from '../../pureFunctions/closeModal';
+import { closeModal } from '../../../utils/closeModal';
 
 type CloseButtonPropsType = {
 	setActive: (value: boolean) => void;

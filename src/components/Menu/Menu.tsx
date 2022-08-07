@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 // Icons
 import { RiCloseCircleFill } from "react-icons/ri";
@@ -7,6 +7,8 @@ import { RiCloseCircleFill } from "react-icons/ri";
 // Components
 import MenuCard from "../MenuCard/MenuCard";
 // Components
+
+import { LanguageContext } from "../../providers/LanguageContext";
 
 // Menu Data
 import menu from "../../constants/menu";
@@ -18,6 +20,8 @@ interface IMenu {
 }
 
 const Menu: React.FC<IMenu> = ({ isMenuActive, handleCloseBurgerMenu }) => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <section className={`${isMenuActive ? "menu__active" : ""} menu`}>
       <button className="menu__close-button" onClick={handleCloseBurgerMenu}>
@@ -25,7 +29,9 @@ const Menu: React.FC<IMenu> = ({ isMenuActive, handleCloseBurgerMenu }) => {
       </button>
       <div className="menu__wrapper">
         {menu.map(({ img, title, id, to }) => {
-          return <MenuCard key={id} img={img} title={title} to={to} />;
+          return (
+            <MenuCard key={id} img={img} title={title[language]} to={to} />
+          );
         })}
       </div>
     </section>

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import texts from "../../constants/texts";
 
 // Test
 import testImg from "../../assets/images/test image.jpg";
@@ -9,31 +10,38 @@ import testImg from "../../assets/images/test image.jpg";
 import { TWorkCardModal } from "../../types/works";
 // Types
 
+import { LanguageContext } from "../../providers/LanguageContext";
+
 interface IWorkModalBody {
   workCardData?: TWorkCardModal;
 }
 
 const WorkModalBody: React.FC<IWorkModalBody> = ({ workCardData }) => {
+  const { language } = useContext(LanguageContext);
+  
   return (
     <div className="work-modal">
       <h2 className="work-modal__title">{workCardData?.title}</h2>
       <div className="work-modal__short-info">
         <p className="work-modal__info-text">
-          Client Name<span>{workCardData?.clientName}</span>
+          {texts.works_modal_client[language]}
+          <span>{workCardData?.clientName}</span>
         </p>
         <p className="work-modal__info-text">
-          Project Value<span>{workCardData?.projectValue}</span>
+          {texts.works_modal_value[language]}
+          <span>{workCardData?.projectValue}</span>
         </p>
         <p className="work-modal__info-text">
-          Date<span>{workCardData?.date}</span>
+          {texts.works_modal_date[language]}
+          <span>{workCardData?.date[language]}</span>
         </p>
       </div>
       <div className="work-modal__text-block">
         <p className="work-modal__text-description">
-          {workCardData?.descriptionFirst}
+          {workCardData?.descriptionFirst[language]}
         </p>
         <p className="work-modal__text-description">
-          {workCardData?.descriptionSecond}
+          {workCardData?.descriptionSecond[language]}
         </p>
       </div>
       <div className="work-modal__images-block">
@@ -49,7 +57,9 @@ const WorkModalBody: React.FC<IWorkModalBody> = ({ workCardData }) => {
         />
       </div>
       <div className="work-modal__link-box">
-        <p className="work-modal__link-title">Link</p>
+        <p className="work-modal__link-title">
+          {texts.works_modal_link[language]}
+        </p>
         <a className="work-modal__link" href={workCardData?.link}>
           {workCardData?.link}
         </a>

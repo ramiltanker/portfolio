@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { List } from "./Inner/List/List";
 import { Text } from "./Inner/Text";
 import { Button } from "../../../Button/Button";
 import { Title } from "../../../Title/Title";
+import texts from "../../../../constants/texts";
+import { LanguageContext } from "../../../../providers/LanguageContext";
 
 type RightSidePropsType = {
   abs: () => void;
@@ -21,14 +23,16 @@ export const RightSide: React.FC<RightSidePropsType> = ({
   text,
   abs,
 }) => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="about__right">
-      <Title text="About Me" />
+      <Title text={texts.about_title[language]} />
       <div className="about__box">
         <Text content={text} />
       </div>
       <List name={name} age={age} phone={phone} email={email} />
-      <Button text="More About" abs={abs} />
+      <Button text={texts.about_more[language]} abs={abs} />
     </div>
   );
 };

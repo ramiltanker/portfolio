@@ -9,37 +9,37 @@ const menu = [
   {
     id: 0,
     img: header,
-    title: "HOME",
+    title: { en: "HOME", ru: "ГЛАВНАЯ" },
     to: "home",
   },
   {
     id: 1,
     img: about,
-    title: "ABOUT",
+    title: { en: "ABOUT", ru: "ПРО МЕНЯ" },
     to: "about",
   },
   {
     id: 2,
     img: works,
-    title: "PROJECTS",
+    title: { en: "PROJECTS", ru: "ПРОЕКТЫ" },
     to: "projects",
   },
   {
     id: 3,
     img: experience,
-    title: "EXPERIENCE",
+    title: { en: "EXPERIENCE", ru: "ОПЫТ" },
     to: "experience",
   },
   {
     id: 4,
     img: skills,
-    title: "SKILLS",
+    title: { en: "SKILLS", ru: "НАВЫКИ" },
     to: "skills",
   },
   {
     id: 5,
     img: contacts,
-    title: "CONTACTS",
+    title: { en: "CONTACTS", ru: "КОНТАКТЫ" },
     to: "contacts",
   },
 ];

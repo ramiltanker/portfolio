@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
+import texts from "../../../../../constants/texts";
 import { Subtitle } from "./Inner/Subtitle";
 import { Title } from "./Inner/Title";
 import { ArrowDown } from "./Inner/ArrowDown";
 import { Button } from "../../../../Button/Button";
+import { LanguageContext } from "../../../../../providers/LanguageContext";
 
 export const Information: React.FC = () => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="header__box">
-      <Subtitle text="Hello and Welcome" />
+      <Subtitle text={texts.header_subtitle[language]} />
 
-      <Title text="I am" />
+      <Title text={texts.header_title[language]} />
 
-      <Button text="Contact me" />
+      <Button text={texts.header_button[language]} />
 
       <ArrowDown />
     </div>

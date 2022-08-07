@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { openModal } from '../pureFunctions/openModal';
+import { openModal } from '../../utils/openModal';
 
 type ButtonPropsType = {
 	text: string;

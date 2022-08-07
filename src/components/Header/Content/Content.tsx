@@ -1,11 +1,13 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import texts from "../../../constants/texts";
 import { CopyText } from "./Inner/CopyText";
 import { MyImage } from "./Inner/MyImage";
 import { Information } from "./Inner/Information/Information";
 import { SocialLinks } from "./Inner/SocialLinks/SocialLinks";
+import { LanguageContext } from "../../../providers/LanguageContext";
 
 export const Content: React.FC = () => {
+  const { language } = useContext(LanguageContext);
   return (
     <div className="header__content">
       <div className="container">
@@ -16,7 +18,7 @@ export const Content: React.FC = () => {
 
         <SocialLinks />
 
-        <CopyText text="Nice person and great developer" />
+        <CopyText text={texts.header_copy_text[language]} />
       </div>
     </div>
   );

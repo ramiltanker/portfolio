@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 // Components
 import WorksCard from "../WorksCard/WorksCard";
@@ -12,6 +12,8 @@ import { TWorkCardModal } from "../../types/works";
 import worksData from "../../constants/works";
 // Works Data
 
+import { LanguageContext } from "../../providers/LanguageContext";
+
 interface IWorksCardContainer {
   handleOpenWorkModal: (state: boolean) => void;
   handleSetWorkCardInfo: (workCardInfo: TWorkCardModal) => void;
@@ -21,6 +23,8 @@ const WorksCardContainer: React.FC<IWorksCardContainer> = ({
   handleOpenWorkModal,
   handleSetWorkCardInfo,
 }) => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="works__cards-container">
       {worksData.map(
@@ -58,12 +62,12 @@ const WorksCardContainer: React.FC<IWorksCardContainer> = ({
                 handleSetWorkCardInfo(workCardModalInfo)
               }
               title={title}
-              shortDescription={shortDescription}
+              shortDescription={shortDescription[language]}
               clientName={clientName}
               projectValue={projectValue}
-              date={date}
-              descriptionFirst={descriptionFirst}
-              descriptionSecond={descriptionSecond}
+              date={date[language]}
+              descriptionFirst={descriptionFirst[language]}
+              descriptionSecond={descriptionSecond[language]}
               mainImage={mainImage}
               exampleImageFirst={exampleImageFirst}
               exampleImageSecond={exampleImageSecond}

@@ -18,6 +18,10 @@
 
   &__box {
     position: relative;
+
+    & .button {
+      max-width: 240px;
+    }
   }
 
   &__subtitle-text {
@@ -225,6 +229,12 @@
       font-size: 40px;
     }
 
+    &__subtitle-text {
+      &::after {
+        display: none;
+      }
+    }
+
     &__copy {
       right: 20px;
       bottom: 35px;
@@ -267,8 +277,6 @@
 
     .button {
       padding: 8px 0;
-
-      max-width: 155px;
 
       font-size: 16px;
     }

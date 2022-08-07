@@ -28,30 +28,38 @@ import comingSoonImage from "../assets/images/image-coming-soon.jpg";
 const worksData = [
   {
     title: "Moon Robots",
-    shortDescription: "Web3 Game",
+    shortDescription: { en: "Web3 Game", ru: "Web3 Игра" },
     clientName: "-",
     projectValue: "-",
-    date: "Coming Soon",
-    descriptionFirst:
-      "A project with a game map where players will be able to move around it.",
-    descriptionSecond:
-      "The emergence of new NFS, such as earth, robots. The ability to craft new NFTs as well.",
+    date: { en: "Coming Soon", ru: "Скоро" },
+    descriptionFirst: {
+      en: "A project with a game map where players will be able to move around it.",
+      ru: "Проект с игровой картой, по которой игроки смогут перемещаться по ней.",
+    },
+    descriptionSecond: {
+      en: "The emergence of new NFS, such as earth, robots. The ability to craft new NFTs as well.",
+      ru: "Появление новых NFS, таких как земля, роботы. Возможность создавать новые Nfs, а также.",
+    },
     mainImage: moonRobotsMainImage,
     exampleImageFirst: comingSoonImage,
     exampleImageSecond: comingSoonImage,
-    link: "Coming Soon",
+    link: "/",
     id: 7,
   },
   {
     title: "Moon Robots",
-    shortDescription: "Web3.0 NFT Game",
+    shortDescription: { en: "Web3.0 NFT Game", ru: "Web3.0 NFT Игра" },
     clientName: "-",
     projectValue: "-",
-    date: "28 Oct 2021",
-    descriptionFirst:
-      "Moon Robots is an upcoming cross-chain NFT DeFi-powered Strategy/RPG P2E game that launches on Harmony blockchain in Q2 2022.",
-    descriptionSecond:
-      "The network chosen for the launch is fast, secure and efficient, which will enable smooth and trustless experience for the players.",
+    date: { en: "20 Apr 2022", ru: "20 Апр 2022" },
+    descriptionFirst: {
+      en: "Moon Robots is an upcoming cross-chain NFT DeFi-powered Strategy/RPG P2E game that launches on Harmony blockchain in Q2 2022.",
+      ru: "Moon Robots - это предстоящая кросс-цепная стратегическая / RPG игра для PS2 на базе NFT DeFi, которая выйдет на блокчейне Harmony во 2 квартале 2022 года.",
+    },
+    descriptionSecond: {
+      en: "The network chosen for the launch is fast, secure and efficient, which will enable smooth and trustless experience for the players.",
+      ru: "Сеть, выбранная для запуска, является быстрой, безопасной и эффективной, что обеспечит бесперебойную и надежную работу игроков.",
+    },
     mainImage: moonrobotsMainImage,
     exampleImageFirst: moonrobotsFirstImage,
     exampleImageSecond: moonrobotsSecondImage,
@@ -60,14 +68,21 @@ const worksData = [
   },
   {
     title: "Stellar Burgers",
-    shortDescription: "Yandex Practicum Project",
+    shortDescription: {
+      en: "Yandex Practicum Project",
+      ru: "Проект Яндекс Практикума",
+    },
     clientName: "-",
     projectValue: "-",
-    date: "28 Oct 2021",
-    descriptionFirst:
-      "The idea of ​​the project is to create a web application for the fictional company Stellar Burgers, which is based on the sale of fast food",
-    descriptionSecond:
-      "A project created for the purpose of learning React. This project uses modern technologies such as React, Redux, WebSocket, TypeScript, React Roter, REST API.",
+    date: { en: "28 Oct 2021", ru: "28 Окт 2021" },
+    descriptionFirst: {
+      en: "The idea of ​​the project is to create a web application for the fictional company Stellar Burgers, which is based on the sale of fast food",
+      ru: "Идея проекта заключается в создании веб-приложения для вымышленной компании Stellar Burgers, которая основана на продаже фаст-фуда",
+    },
+    descriptionSecond: {
+      en: "A project created for the purpose of learning React. This project uses modern technologies such as React, Redux, WebSocket, TypeScript, React Roter, REST API.",
+      ru: "Проект, созданный с целью изучения React. В этом проекте используются современные технологии, такие как React, Redux, WebSocket, TypeScript, React Roter, REST API.",
+    },
     mainImage: stellarBurgers,
     exampleImageFirst: stellarBurgersExampleOne,
     exampleImageSecond: StellarBurgersExampleTwo,
@@ -76,14 +91,21 @@ const worksData = [
   },
   {
     title: "QR-MENU",
-    shortDescription: "QR-menu for Tino Pizza",
+    shortDescription: {
+      en: "QR-menu for Tino Pizza",
+      ru: "QR-menu для Tino Pizza",
+    },
     clientName: "Tino Pizza",
     projectValue: "10.000 RUB",
-    date: "10 Oct 2021",
-    descriptionFirst:
-      "The application was created to remove the traditional menu and replace it with a more modern counterpart. The application works by scanning a QR code with a phone camera.",
-    descriptionSecond:
-      "The application was created using technologies such as React, React Router, React Transition Group, Redux",
+    date: { en: "10 Oct 2021", ru: "10 Окт 2021" },
+    descriptionFirst: {
+      en: "The application was created to remove the traditional menu and replace it with a more modern counterpart. The application works by scanning a QR code with a phone camera.",
+      ru: "Приложение было создано для удаления традиционного меню и замены его более современным аналогом. Приложение работает путем сканирования QR-кода с помощью камеры телефона.",
+    },
+    descriptionSecond: {
+      en: "The application was created using technologies such as React, React Router, React Transition Group, Redux",
+      ru: "Приложение было создано с использованием таких технологий, как React, React Router, React Transition Group, Redux",
+    },
     mainImage: qrCodeMainImage,
     exampleImageFirst: qrCodeFirstImage,
     exampleImageSecond: qrCodeSecondImage,
@@ -92,14 +114,21 @@ const worksData = [
   },
   {
     title: "My Korea",
-    shortDescription: "My Korea for Education",
+    shortDescription: {
+      en: "My Korea for Education",
+      ru: "My Korea for Education",
+    },
     clientName: "Private customer",
     projectValue: "20.000 RUB",
-    date: "15 June 2021",
-    descriptionFirst:
-      "A project created to help students study in Korea. The site contains information about universities, grants and other information.",
-    descriptionSecond:
-      "The project is written using the React library in JavaScript.",
+    date: { en: "15 June 2021", ru: "15 Июня 2021" },
+    descriptionFirst: {
+      en: "A project created to help students study in Korea. The site contains information about universities, grants and other information.",
+      ru: "Проект, созданный для того, чтобы помочь студентам учиться в Корее. Сайт содержит информацию об университетах, грантах и другую информацию.",
+    },
+    descriptionSecond: {
+      en: "The project is written using the React library in JavaScript.",
+      ru: "Проект написан с использованием библиотеки React на JavaScript.",
+    },
     mainImage: myKoreaMainImage,
     exampleImageFirst: myKoreaFirstImage,
     exampleImageSecond: myKoreaSecondImage,
@@ -108,12 +137,21 @@ const worksData = [
   },
   {
     title: "Timer",
-    shortDescription: "Timer created with React",
+    shortDescription: {
+      en: "Timer created with React",
+      ru: "Таймер написаный с использованием React",
+    },
     clientName: "-",
     projectValue: "-",
-    date: "15 Dec 2021",
-    descriptionFirst: "Application created for the purpose of practice.",
-    descriptionSecond: "The app includes a timer and theme changer.",
+    date: { en: "15 Dec 2021", ru: "15 Дек 2021" },
+    descriptionFirst: {
+      en: "Application created for the purpose of practice.",
+      ru: "Приложение, созданное с целью практики.",
+    },
+    descriptionSecond: {
+      en: "The app includes a timer and theme changer.",
+      ru: "Приложение включает в себя таймер и смену темы.",
+    },
     mainImage: timerMainImage,
     exampleImageFirst: timerFirstImage,
     exampleImageSecond: timerSecondImage,
@@ -122,14 +160,18 @@ const worksData = [
   },
   {
     title: "HANDS",
-    shortDescription: "Treatment Center",
+    shortDescription: { en: "Treatment Center", ru: "Центр Лечения" },
     clientName: "Private customer",
     projectValue: "40.000 RUB",
-    date: "20 Feb 2022",
-    descriptionFirst:
-      "Website designed for a center that provides treatment services",
-    descriptionSecond:
-      "The site is written without a framework, in pure js using html markup and scss preprocessor",
+    date: { en: "20 Feb 2022", ru: "20 Фев 2022" },
+    descriptionFirst: {
+      en: "Website designed for a center that provides treatment services",
+      ru: "Веб-сайт, предназначенный для центра, предоставляющего лечебные услуги",
+    },
+    descriptionSecond: {
+      en: "The site is written without a framework, in pure js using html markup and scss preprocessor",
+      ru: "Сайт написан без фреймворка, на чистом js с использованием html-разметки и css-препроцессора",
+    },
     mainImage: handsMainImage,
     exampleImageFirst: handsFirstImage,
     exampleImageSecond: handsSecondImage,
