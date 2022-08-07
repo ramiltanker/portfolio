@@ -22,7 +22,26 @@ import moonrobotsMainImage from "../assets/images/moonrobotsMainImage.png";
 import moonrobotsFirstImage from "../assets/images/moonrobotsFirstImage.png";
 import moonrobotsSecondImage from "../assets/images/moonrobotsSecondImage.png";
 
+import moonRobotsMainImage from "../assets/images/moon-robots-game.png";
+import comingSoonImage from "../assets/images/image-coming-soon.jpg";
+
 const worksData = [
+  {
+    title: "Moon Robots",
+    shortDescription: "Web3 Game",
+    clientName: "-",
+    projectValue: "-",
+    date: "Coming Soon",
+    descriptionFirst:
+      "A project with a game map where players will be able to move around it.",
+    descriptionSecond:
+      "The emergence of new NFS, such as earth, robots. The ability to craft new NFTs as well.",
+    mainImage: moonRobotsMainImage,
+    exampleImageFirst: comingSoonImage,
+    exampleImageSecond: comingSoonImage,
+    link: "Coming Soon",
+    id: 7,
+  },
   {
     title: "Moon Robots",
     shortDescription: "Web3.0 NFT Game",

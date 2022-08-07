@@ -25,7 +25,7 @@ export const Content: React.FC<ContentPropsType> = ({ abs }) => {
     <>
       {aboutInfo.map(({ id, name, age, phone, email, text, photo }) => {
         return (
-          <div className="about__inner">
+          <div className="about__inner" key={id}>
             <LeftSide photo={photo} />
             <RightSide
               name={name}
