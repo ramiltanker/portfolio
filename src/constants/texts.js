@@ -43,6 +43,10 @@ const texts = {
     ru: "Телефон",
     en: "Phone",
   },
+  about_modal_title: {
+    ru: "Мои навыки",
+    en: "My skills",
+  },
   works_title: {
     ru: "Последние Проекты",
     en: "Latest Project",
