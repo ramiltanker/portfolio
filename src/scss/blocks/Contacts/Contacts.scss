@@ -58,7 +58,7 @@
   }
 
   &__title {
-    font-family: Berkshire Swash, cursive;
+    @extend %sfuiDisplay-400;
     font-size: 30px;
     font-weight: 500;
     color: #fff;

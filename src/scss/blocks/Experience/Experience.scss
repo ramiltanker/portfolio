@@ -24,6 +24,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
+    @extend %sfuiDisplay-400;
   }
 
   &__container {

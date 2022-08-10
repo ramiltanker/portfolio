@@ -13,7 +13,7 @@
     align-items: center;
     height: 100%;
 
-    @extend %berkshireSwash-400;
+    @extend %sfuiDisplay-400;
   }
 
   &__box {
@@ -28,7 +28,7 @@
     position: relative;
 
     display: inline-block;
-
+    font-weight: 400;
     font-size: 1.2rem;
     letter-spacing: 8px;
 
@@ -54,14 +54,11 @@
 
   &__title {
     display: block;
-
     font-size: 3.8rem;
-    line-height: 1.2em;
-
     background: url("../../../assets/images/bg-font.jpg") no-repeat;
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 400;
   }
 
   &__arrow-down {

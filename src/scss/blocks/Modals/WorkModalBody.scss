@@ -80,13 +80,13 @@
   }
 
   &__link-title {
-    font-family: Berkshire Swash, cursive;
+    @extend %sfuiDisplay-400;
     font-size: 35px;
     margin-bottom: 20px;
   }
 
   &__link {
-    font-family: Berkshire Swash, cursive;
+    @extend %sfuiDisplay-400;
     font-size: 20px;
     opacity: 1;
     transition: opacity 300ms linear;
@@ -117,6 +117,7 @@
       justify-content: space-between;
       align-items: flex-start;
     }
+
     &__image {
       width: 450px;
       height: 280px;

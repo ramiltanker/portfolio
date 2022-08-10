@@ -2,6 +2,7 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -24,6 +25,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
+    @extend %sfuiDisplay-400;
   }
 
   &__cards-container {
@@ -143,7 +145,7 @@
   }
 
   &__card-text {
-    font-family: Berkshire Swash, cursive;
+    @extend %sfuiDisplay-400;
     color: #999;
     line-height: 1.7em;
     margin-bottom: 20px;

@@ -5,6 +5,7 @@ import { closeModal } from "../../utils/closeModal";
 type ModalPropsType = {
   active: boolean;
   setActive: (value: boolean) => void;
+  children: React.ReactNode;
 };
 
 export const Modal: React.FC<ModalPropsType> = ({

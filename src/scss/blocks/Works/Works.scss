@@ -4,6 +4,7 @@
     opacity: 0;
     transform: translateX(-15px);
   }
+
   100% {
     visibility: visible;
     opacity: 1;
@@ -17,6 +18,7 @@
     opacity: 1;
     transform: translateX(0px);
   }
+
   100% {
     opacity: 0;
     transform: translateX(-15px);
@@ -41,6 +43,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
+    @extend %sfuiDisplay-400;
   }
 
   &__cards-container {
@@ -93,6 +96,7 @@
   &__card-title {
     font-size: 40px;
     font-family: Berkshire Swash, cursive;
+    @extend %sfuiDisplay-400;
   }
 
   &__card-text {
@@ -100,6 +104,7 @@
     font-size: 18px;
     margin-bottom: 20px;
     font-weight: 300;
+    @extend %sfuiDisplay-400;
   }
 
   &__card-button {

@@ -104,10 +104,10 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    @extend %sfuiDisplay-700;
     font-weight: 700;
     font-size: 45px;
     color: #fff;
-    font-family: Berkshire Swash, cursive;
     transition: opacity 300ms linear;
   }
 

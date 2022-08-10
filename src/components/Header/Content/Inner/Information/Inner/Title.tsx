@@ -13,7 +13,6 @@ export const Title: React.FC<TitlePropsType> = ({ text }) => {
   return (
     <div className="header__title-box">
       <h2 className="header__title">{text}&nbsp;</h2>
-
       <Typed
         className="header__title"
         strings={[
