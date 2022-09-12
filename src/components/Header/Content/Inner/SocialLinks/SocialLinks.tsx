@@ -14,7 +14,7 @@ export const SocialLinks: React.FC = () => {
   const Icons: IconType[] = [TelegramIcon, WhatsAppIcon, InstagramIcon];
   const links: string[] = [
     "https://tlgg.ru/niceguygg",
-    "https://wa.me/+77004870180",
+    "https://wa.me/+79775329220",
     "https://instagram.com/ashrafulin_?utm_medium=copy_link",
   ];
 
