@@ -20,9 +20,9 @@ export const AboutBody: React.FC<IAboutBody> = ({ active, data }) => {
 
       <div className="about-modal__skills">
         <Skill procent="90%" name="HTML/CSS" color="yellow" active={active} />
-        <Skill procent="65%" name="JavaScript" color="blue" active={active} />
-        <Skill procent="75%" name="React/Redux" color="red" active={active} />
-        <Skill procent="80%" name="TypeScript" color="green" active={active} />
+        <Skill procent="85%" name="JavaScript" color="blue" active={active} />
+        <Skill procent="85%" name="React/Redux" color="red" active={active} />
+        <Skill procent="85%" name="TypeScript" color="green" active={active} />
       </div>
 
       {/* <List name={data.name} age={data.age} phone={data.phone} email={data.email}/> */}
