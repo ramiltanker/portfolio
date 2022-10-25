@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ec8177fa.chunk.css",
-    "main.js": "/portfolio/static/js/main.1b0547fd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1b0547fd.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.44dfc016.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.44dfc016.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7f23842f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7f23842f.js.map",
     "static/css/2.4365ac24.chunk.css": "/portfolio/static/css/2.4365ac24.chunk.css",
@@ -37,6 +37,8 @@
     "static/media/portret.a80dd82c.png": "/portfolio/static/media/portret.a80dd82c.png",
     "static/media/qrMenuFirstImage.7a9945cb.png": "/portfolio/static/media/qrMenuFirstImage.7a9945cb.png",
     "static/media/qrMenuSecondImage.a89bed87.png": "/portfolio/static/media/qrMenuSecondImage.a89bed87.png",
+    "static/media/robotsGameFirstImage.768cdfd2.png": "/portfolio/static/media/robotsGameFirstImage.768cdfd2.png",
+    "static/media/robotsGameSecondImage.19eb6bba.png": "/portfolio/static/media/robotsGameSecondImage.19eb6bba.png",
     "static/media/skills.ebd9ee45.png": "/portfolio/static/media/skills.ebd9ee45.png",
     "static/media/timerFirstImage.bb952b6c.png": "/portfolio/static/media/timerFirstImage.bb952b6c.png",
     "static/media/timerMainImage.58aa4d5c.png": "/portfolio/static/media/timerMainImage.58aa4d5c.png",
@@ -48,6 +50,6 @@
     "static/css/2.4365ac24.chunk.css",
     "static/js/2.166b86a4.chunk.js",
     "static/css/main.ec8177fa.chunk.css",
-    "static/js/main.1b0547fd.chunk.js"
+    "static/js/main.44dfc016.chunk.js"
   ]
 }
