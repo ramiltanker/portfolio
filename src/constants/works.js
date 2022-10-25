@@ -23,27 +23,30 @@ import moonrobotsFirstImage from "../assets/images/moonrobotsFirstImage.png";
 import moonrobotsSecondImage from "../assets/images/moonrobotsSecondImage.png";
 
 import moonRobotsMainImage from "../assets/images/moon-robots-game.png";
+import robotsGameFirstImage from "../assets/images/robotsGameFirstImage.png";
+import robotsGameSecondImage from "../assets/images/robotsGameSecondImage.png";
+
 import comingSoonImage from "../assets/images/image-coming-soon.jpg";
 
 const worksData = [
   {
     title: "Moon Robots",
-    shortDescription: { en: "Web3 Game", ru: "Web3 Игра" },
+    shortDescription: { en: "Web3.0 NFT Game", ru: "Web3.0 NFT Игра" },
     clientName: "-",
     projectValue: "-",
-    date: { en: "Coming Soon", ru: "Скоро" },
+    date: { en: "14 Oct 2022", ru: "14 Окт 2022" },
     descriptionFirst: {
-      en: "A project with a game map where players will be able to move around it.",
-      ru: "Проект с игровой картой, по которой игроки смогут перемещаться по ней.",
+      en: "On this project, I performed tasks on the interaction of the frontend part with the backend part, engaged in optimization, decomposition, code refactoring, code review.",
+      ru: "На данном проекте я выполнял задачи по взаимодействию фронтенд части с бекенд частью, занимался оптимизацией, декомпозицией, рефакторингом кода, ревью кода.",
     },
     descriptionSecond: {
-      en: "The emergence of new NFS, such as earth, robots. The ability to craft new NFTs as well.",
-      ru: "Появление новых NFS, таких как земля, роботы. Возможность создавать новые Nfs, а также.",
+      en: "The Web3.0 game with a game map that players can navigate through. The emergence of new NFTs, such as land, robots. The user can create new NFTs, exchange cryptocurrencies, send a robot on a quest, and thereby receive new NFTs and cryptocurrencies.",
+      ru: "Web3.0 игра с картой, по которой игроки могут перемещаться по ней. Появление новых NFT, таких как land, robots. Пользователь может создавать новые NFT, обменивать криптовалюту, отправлять робота на квест, и тем самым получая новые NFT и криптовалюту.",
     },
     mainImage: moonRobotsMainImage,
-    exampleImageFirst: comingSoonImage,
-    exampleImageSecond: comingSoonImage,
-    link: "/",
+    exampleImageFirst: robotsGameFirstImage,
+    exampleImageSecond: robotsGameSecondImage,
+    link: "https://app.moonrobots.one/game",
     id: 7,
   },
   {
@@ -53,11 +56,11 @@ const worksData = [
     projectValue: "-",
     date: { en: "20 Apr 2022", ru: "20 Апр 2022" },
     descriptionFirst: {
-      en: "Moon Robots is an upcoming cross-chain NFT DeFi-powered Strategy/RPG P2E game that launches on Harmony blockchain in Q2 2022.",
-      ru: "Moon Robots - это предстоящая кросс-цепная стратегическая / RPG игра для PS2 на базе NFT DeFi, которая выйдет на блокчейне Harmony во 2 квартале 2022 года.",
+      en: "On this project, I performed tasks on the interaction of the frontend part with the backend part, engaged in optimization, decomposition, code refactoring, code review.",
+      ru: "На данном проекте я выполнял задачи по взаимодействию фронтенд части с бекенд частью, занимался оптимизацией, декомпозицией, рефакторингом кода, ревью кода.",
     },
     descriptionSecond: {
-      en: "The network chosen for the launch is fast, secure and efficient, which will enable smooth and trustless experience for the players.",
+      en: "Moon Robots is an upcoming cross-chain NFT DeFi-powered Strategy/RPG P2E game that launches on Harmony blockchain in Q2 2022. The network chosen for the launch is fast, secure and efficient, which will enable smooth and trustless experience for the players.",
       ru: "Сеть, выбранная для запуска, является быстрой, безопасной и эффективной, что обеспечит бесперебойную и надежную работу игроков.",
     },
     mainImage: moonrobotsMainImage,
