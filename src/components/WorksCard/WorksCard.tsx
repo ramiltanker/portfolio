@@ -1,8 +1,5 @@
 import React, { useContext, useState } from "react";
 
-// Types
-import { TWorkCardModal } from "../../types/works";
-// Types
 import texts from "../../constants/texts";
 import { LanguageContext } from "../../providers/LanguageContext";
 
