@@ -22,8 +22,8 @@ const contacts = [
   {
     id: 1,
     textName: {
-      ru: "ramilashrafulinfrontend@gmail.com",
-      en: "ramilashrafulinfrontend@gmail.com",
+      ru: "ramil-frontend@mail.ru",
+      en: "ramil-frontend@mail.ru",
     },
     title: { en: "Email", ru: "Email" },
     icon: EmailIcon,

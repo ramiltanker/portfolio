@@ -8,17 +8,17 @@ const data = [
       ru: "Ашрафулин Рамиль",
     },
     age: {
-      en: "19 years",
-      ru: "19 лет",
+      en: "20 years",
+      ru: "20 лет",
     },
     phone: {
       en: "Contact me in social media",
       ru: "Свяжитесь со мной в соц.сетях",
     },
-    email: "ramilashrafulinfrontend@gmail.com",
+    email: "ramil-frontend@mail.com",
     text: {
-      en: "I am a frontend developer with three years of development experience. Participated in commercial development on a freelance platform. Also I have worked at MindSet as a trainee frontend developer and participated in the development of a startup project. At the moment I am taking part in the creation of the nft game Moon Robots. I write adaptive SPA applications using modern technologies, observing the structure of the project.",
-      ru: "Я фронтент разработчик с трёх летнем опытом разработки. Участвовал в коммерческой разработке на фрилансерской платформе. Также я работал в MindSet в качестве стажера front end разработчика и участвовал в разработке стартап-проекта. В данный момент я принимаю участие в создании сетевой игры Moon Robots. Я пишу адаптивные СПА-приложения с использованием современных технологий, соблюдая структуру проекта.",
+      en: "I am a frontend developer with three years of development experience. Participated in the development of a GameFI project based on the Harmony blockchain network. Developed no-code applications related to the creation of dynamic pipelines for flexible document recognition. He also developed a web application for recognizing handwritten and graphic texts. Experience in developing a web application that is implemented into the corporate environment of the company for processing and analyzing objects in photos in the database.",
+      ru: "Я фронтенд разработчик с трёхлетним опытом разработки. Участвовал в разработке GameFI проекта на базе блокчейна сети Harmony. Разрабатывал no-code приложения связанные с созданием динамических пайплайнов для гибкого распознавания документов. Также разрабатывал веб-приложение для распознавания рукописных и графических текстов. Опыт разработки веб-приложения, которое внедряется в корпоративную среду компании для обработки и анализа объектов на фотографиях в БД. ",
     },
     photo: portret,
   },

@@ -18,12 +18,12 @@ const social = [
       },
       {
         id: 1,
-        socialLink: "https://t.me/niceguygg",
+        socialLink: "https://t.me/ramil_ashrafulin",
         icon: telegramIcon,
       },
       {
         id: 2,
-        socialLink: "https://api.whatsapp.com/send?phone=77004870180&text=",
+        socialLink: "https://api.whatsapp.com/send?phone=79775329220&text=",
         icon: whatsAppIcon,
       },
     ],
