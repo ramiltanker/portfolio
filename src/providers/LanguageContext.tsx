@@ -1,11 +1,4 @@
-import React, { createContext, Dispatch, FC, SetStateAction } from "react";
-
-type TypeSetState<T> = Dispatch<SetStateAction<T>>;
-
-interface IContext {
-  language: "ru" | "en";
-  setType: TypeSetState<string>;
-}
+import React, { createContext, FC } from "react";
 
 interface ILanguageProvider {
   children: React.ReactNode;

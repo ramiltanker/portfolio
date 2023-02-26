@@ -26,8 +26,6 @@ import moonRobotsMainImage from "../assets/images/moon-robots-game.png";
 import robotsGameFirstImage from "../assets/images/robotsGameFirstImage.png";
 import robotsGameSecondImage from "../assets/images/robotsGameSecondImage.png";
 
-import comingSoonImage from "../assets/images/image-coming-soon.jpg";
-
 const worksData = [
   {
     title: "Moon Robots",

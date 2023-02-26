@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from "react";
+import { useContext } from "react";
 import texts from "../../constants/texts";
 // Components
 import ExperienceContainer from "../ExperienceContainer/ExperienceContainer";

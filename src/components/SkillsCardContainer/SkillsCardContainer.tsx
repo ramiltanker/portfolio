@@ -16,7 +16,7 @@ import skills from "../../constants/skills";
 
 interface ISkillsCardContainer {}
 
-const SkillsCardContainer: React.FC<ISkillsCardContainer> = ({}) => {
+const SkillsCardContainer: React.FC<ISkillsCardContainer> = () => {
   const { language } = useContext(LanguageContext);
 
   return (

@@ -9,7 +9,7 @@ import { LanguageContext } from "../../providers/LanguageContext";
 
 interface ISkills {}
 
-const Skills: React.FC<ISkills> = ({}) => {
+const Skills: React.FC<ISkills> = () => {
   const { language } = useContext(LanguageContext);
 
   return (

@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import texts from "../../../../constants/texts";
 import { Skill } from "../../../Skill/Skill";
-import { List } from "../../../About/Content/RightSide/Inner/List/List";
 import { LanguageContext } from "../../../../providers/LanguageContext";
 
 interface IAboutBody {

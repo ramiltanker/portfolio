@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 

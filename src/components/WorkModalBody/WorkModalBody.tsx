@@ -1,10 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
 import texts from "../../constants/texts";
-
-// Test
-import testImg from "../../assets/images/test image.jpg";
-// Test
 
 // Types
 import { TWorkCardModal } from "../../types/works";
@@ -18,7 +13,7 @@ interface IWorkModalBody {
 
 const WorkModalBody: React.FC<IWorkModalBody> = ({ workCardData }) => {
   const { language } = useContext(LanguageContext);
-  
+
   return (
     <div className="work-modal">
       <h2 className="work-modal__title">{workCardData?.title}</h2>

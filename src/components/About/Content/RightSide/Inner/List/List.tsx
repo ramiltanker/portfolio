@@ -2,11 +2,6 @@ import React, { useContext } from "react";
 import texts from "../../../../../../constants/texts";
 import { LanguageContext } from "../../../../../../providers/LanguageContext";
 
-interface IAbout {
-  [key: string]: string;
-  id: string;
-}
-
 interface IList {
   name: string;
   age: string;
