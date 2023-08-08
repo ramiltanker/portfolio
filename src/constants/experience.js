@@ -51,6 +51,15 @@ export const experience = [
           ru: "Участвовал в разработке no-code приложения, связанного с созданием динамических пайплайнов для гибкого распознавания документов. А также разработка веб-приложения для распознавания рукописных и графических текстов, селфи и проверки паспорта.",
         },
       },
+      {
+        id: 5,
+        title: { en: "XAMAX", ru: "XAMAX" },
+        time: { en: "1 year", ru: "1 год" },
+        description: {
+          en: "User interface development. Participation in planning. Performed optimization of the application to improve performance, code refactoring, decomposition. Filtering and sorting data for further analysis. Interacted with designers and backend developers to coordinate the interface, exchange information and solve common problems. Ability to view transaction history, monitor account balance and track payment statuses.",
+          ru: "Разработка пользовательского интерфейса. Участие в планировании. Производил оптимизацию работы приложения для повышения производительности, рефакторинг кода, декомпозиция. Фильтрация и сортировка данных для дальнейшего анализа. Взаимодействовал с дизайнерами и бэкенд-разработчиками для согласования интерфейса, обмена информацией и решения общих задач. Возможность просматривать историю операций, контролировать баланс счета и отслеживать статусы платежей.",
+        },
+      },
     ],
   },
 ];
