@@ -26,7 +26,34 @@ import moonRobotsMainImage from "../assets/images/moon-robots-game.png";
 import robotsGameFirstImage from "../assets/images/robotsGameFirstImage.png";
 import robotsGameSecondImage from "../assets/images/robotsGameSecondImage.png";
 
+import xamaxMainImage from "../assets/images/xamaxMainImage.png";
+import xamaxFirstImage from "../assets/images/xamaxFirstImage.png";
+import xamaxSecondImage from "../assets/images/xamaxSecondImage.png";
+
 const worksData = [
+  {
+    title: "XAMAX",
+    shortDescription: {
+      en: "Crypto payments for business",
+      ru: "Крипто-платежи для бизнеса",
+    },
+    clientName: "XAMAX",
+    projectValue: "-",
+    date: { en: "1 Mar 2023", ru: "1 Мар 2023" },
+    descriptionFirst: {
+      en: "User interface development. Participation in planning. Performed optimization of the application to improve performance, code refactoring, decomposition. Filtering and sorting data for further analysis. Interacted with designers and backend developers to coordinate the interface, exchange information and solve common problems. Ability to view transaction history, monitor account balance and track payment statuses.",
+      ru: "Разработка пользовательского интерфейса. Участие в планировании. Производил оптимизацию работы приложения для повышения производительности, рефакторинг кода, декомпозиция. Фильтрация и сортировка данных для дальнейшего анализа. Взаимодействовал с дизайнерами и бэкенд-разработчиками для согласования интерфейса, обмена информацией и решения общих задач. Возможность просматривать историю операций, контролировать баланс счета и отслеживать статусы платежей.",
+    },
+    descriptionSecond: {
+      en: "Manage all crypto payments for any business needs with XAMAX. The lowest commission of 0.5%, easy-to-integrate API, and one wallet for everything.",
+      ru: "Управляйте всеми крипто-платежами для любых бизнес-нужд с помощью XAMAX. Самая низкая комиссия в размере 0,5%, простой в интеграции API и один кошелек для всего.",
+    },
+    mainImage: xamaxMainImage,
+    exampleImageFirst: xamaxFirstImage,
+    exampleImageSecond: xamaxSecondImage,
+    link: "https://www.xamax.io/",
+    id: 8,
+  },
   {
     title: "Moon Robots",
     shortDescription: { en: "Web3.0 NFT Game", ru: "Web3.0 NFT Игра" },
