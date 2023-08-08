@@ -26,7 +26,7 @@ export const experience = [
       },
       {
         id: 2,
-        title: { en: "MindSet company", ru: "Компания MindSet" },
+        title: { en: "MindSet", ru: "MindSet" },
         time: { en: "8 month", ru: "8 месяцев" },
         description: {
           en: "I have been worked as an intern at MindSet as a frontend developer intern. Participated in the development of the Start-Up project. Performed Team Lead tasks.",
